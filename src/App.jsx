@@ -46,12 +46,12 @@ function App() {
               <p className="mt-3 text-gray-500">Majoring in Computer Science</p>
             </div>
 
-            <div className="container m-auto flex gap-8 justify-center">
-              <button className="px-5 py-3 bg-blue-500 rounded-md text-white mt-5">
-                Download my CV
+            <div className="container m-auto flex gap-8">
+              <button className="px-5 py-3 bg-sky-500 rounded-md text-white mt-5">
+                Download My CV
               </button>
-              <button className="px-5 py-3 bg-blue-500 rounded-md text-white mt-5">
-                Contact me
+              <button className="px-5 py-3 bg-sky-500 rounded-md text-white mt-5">
+                Contact Me
               </button>
             </div>
           </div>
@@ -112,67 +112,122 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="px-4 py-5">
-        <div>
-          <h2>Featured works 1</h2>
-          <div>
-            <img
-              src="https://github.com/KyrieRui/BOPRC_water_meter_Monitor_Demo/blob/main/WX20231208-114409@2x.png?raw=true"
-              alt="work"
-              style={{ width: "400px", height: "auto" }}
-            />
-            <div>
-              <span>2023</span>
-              <span>Dashboard</span>
+
+      <section className="px-5 py-5">
+        <div className="container m-auto">
+          <h2 className="text-lg font-semibold">Featured works 1</h2>
+
+          <div className="flex mt-5 gap-3">
+            <div className="basis-1/2">
+              <img
+                src="https://github.com/KyrieRui/BOPRC_water_meter_Monitor_Demo/blob/main/WX20231208-114409@2x.png?raw=true"
+                alt="work"
+                style={{ width: "400px", height: "auto" }}
+              />
             </div>
-            <p>a localy running LLM for the BOPRC water meter monitor system</p>
+            <div>
+              <h2 className="text-lg font-mono">Locally LLM Dashboard</h2>
+              <div className="flex gap-3 my-3 item-center">
+                <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
+                  2023
+                </span>
+                <span className="text-sm font-mono text-slate-500">
+                  Dashboard
+                </span>
+              </div>
+              <p className="text-lg font-mono text-gray-600">
+                Use Python build a Locally running LLM, Front-End with React
+                asstant(fine-tunning LLaMA2 7B Chat)
+              </p>
+            </div>
           </div>
         </div>
-        <div>
-          <h2>Featured works 2</h2>
-          <div>
-            <img
-              src="https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkb07ifzibf4wjsrfhrly.png"
-              alt="work"
-              style={{ width: "400px", height: "auto" }}
-            />
-            <div>
-              <span>2023</span>
-              <span>Dashboard</span>
+
+        <div className="container m-auto">
+          <h2 className="text-lg font-semibold">Featured works 2</h2>
+
+          <div className="flex mt-5 gap-3">
+            <div className="basis-1/2">
+              <img
+                src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/428689460_3785548611766440_2753976292737944169_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=Bd9bPn2aggAAX-n8pqk&_nc_oc=AQmXaSkYnA7YmJBS7DriRwJcRe1CMYKvlW8_UJk9uDPoVF-ZoKgaueo97LD_jIVnDkw&_nc_ht=scontent-syd2-1.xx&oh=00_AfDNdMCoP0WEWH7VhBK7Zkbf0lNlhdnSeJGsCCaPe1Ds_g&oe=65E1340D"
+                alt="work"
+                style={{ width: "200px", height: "auto" }}
+              />
             </div>
-            <p>a localy running LLM for the BOPRC water meter monitor system</p>
+            <div>
+              <h2 className="text-lg font-mono">IOS BOP GPT</h2>
+              <div className="flex gap-3 my-3 item-center">
+                <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
+                  2023
+                </span>
+                <span className="text-sm font-mono text-slate-500">
+                  Mobile App
+                </span>
+              </div>
+              <p className="text-lg font-mono text-gray-600">
+                Use Flutter to build a mobile app for BOPRC stuff could use AI
+                asstant(using Google Gemini API)
+              </p>
+            </div>
           </div>
         </div>
-        <div>
-          <h2>Featured works 3</h2>
-          <div>
-            <img
-              src="https://media.dev.to/cdn-cgi/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsnlymqk63wrzamd1c2qt.png"
-              alt="work"
-              style={{ width: "400px", height: "auto" }}
-            />
-            <div>
-              <span>2023</span>
-              <span>Dashboard</span>
+
+        <div className="container m-auto">
+          <h2 className="text-lg font-semibold">Featured works 3</h2>
+
+          <div className="flex mt-5 gap-3">
+            <div className="basis-1/2">
+              <img
+                src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/428682487_3785548631766438_2238232392985061162_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=3635dc&_nc_ohc=OJAc1YKlrt8AX9VEOm0&_nc_ht=scontent-syd2-1.xx&oh=00_AfA2hjEO6xJjcH2zA0qhYvXv_XnVcyVQCfNVHlzQYFv7XQ&oe=65E2F4B0"
+                alt="work"
+                style={{ width: "200px", height: "auto" }}
+              />
             </div>
-            <p>a localy running LLM for the BOPRC water meter monitor system</p>
+            <div>
+              <h2 className="text-lg font-mono">YoloV8 Real Time Model</h2>
+              <div className="flex gap-3 my-3 item-center">
+                <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
+                  2023
+                </span>
+                <span className="text-sm font-mono text-slate-500">
+                  Dashboard
+                </span>
+              </div>
+              <p className="text-lg font-mono text-gray-600">
+                Self training YoloV5 modle and running on mobile for monitoring
+                river level(using Ultralytics Hub)
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <footer>
-        <div>
-          <div className="container m-auto flex justify">
+
+      <footer className="px-4 py-5">
+        <div className="container m-auto">
+          <div className="flex item-center justify-center gap-4">
             <a>
-              <img src="https://img.icons8.com/ios/50/000000/facebook--v1.png" />
+              <img
+                src="https://img.icons8.com/ios/50/000000/facebook--v1.png"
+                className="w-11"
+              />
             </a>
             <a>
-              <img src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png" />
+              <img
+                src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"
+                className="w-11"
+              />
             </a>
             <a>
-              <img src="https://img.icons8.com/ios/50/000000/linkedin.png" />
+              <img
+                src="https://img.icons8.com/ios/50/000000/linkedin.png"
+                className="w-11"
+              />
             </a>
             <a>
-              <img src="https://img.icons8.com/ios/50/000000/twitter--v1.png" />
+              <img
+                src="https://img.icons8.com/ios/50/000000/twitter--v1.png"
+                className="w-11"
+              />
             </a>
           </div>
           <p>Copyright @ 2024</p>
