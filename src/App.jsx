@@ -58,9 +58,9 @@ function App() {
           <div className="w-2/2">
             <img
               className="rounded-full"
-              src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/328998714_885168419257223_3222668373957364843_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=HNiHZXgSB1UAX8-rnks&_nc_ht=scontent-syd2-1.xx&oh=00_AfAjAoLlgpXdGbd8OeAs3SZieSBBdGqklVa_02hrYbJvuw&oe=65DFF051"
+              src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/428633120_3785535288434439_4517344367272757351_n.jpg?stp=cp6_dst-jpg_s1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_ohc=KOOZne8HxoYAX9Ctzbh&_nc_ht=scontent-syd2-1.xx&oh=00_AfB4LhKAaJWHn3vLORVluPX4uy8E8RhVBk0-fvFufTCEkQ&oe=65E19BAF"
               alt="Rui"
-              style={{ width: "400px", height: "auto" }}
+              style={{ width: "500px", height: "auto" }}
             />
           </div>
         </div>
