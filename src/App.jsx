@@ -11,22 +11,22 @@ function App() {
       <header className="px-4 py-6">
         <div className="container m-auto flex justify-between">
           <div>
-            <h1 className="text-3xl font-semiblod">Ray</h1>
+            <h1 className="text-5xl font-semiblod">Ray</h1>
           </div>
           <div>
             <ul className="flex gap-4">
               <li>
-                <a className="text-gray-500 hover:text-black cursor-pointer">
+                <a className="text-4xl text-gray-500 hover:text-black cursor-pointer">
                   Works
                 </a>
               </li>
               <li>
-                <a className="text-gray-500 hover:text-black cursor-pointer">
+                <a className="text-4xl text-gray-500 hover:text-black cursor-pointer">
                   Blogs
                 </a>
               </li>
               <li>
-                <a className="text-gray-500 hover:text-black cursor-pointer">
+                <a className="text-4xl text-gray-500 hover:text-black cursor-pointer">
                   Contant
                 </a>
               </li>
@@ -37,21 +37,26 @@ function App() {
       <main className="px-4 py-32">
         <div className="container m-auto flex justify-between items-center">
           <div className="w-1/2">
-            <h2 className="text-3xl font-bold">Hi, I'm Ray</h2>
-            <h2 className="text-3xl font-bold">I am a Junior developer</h2>
+            <h2 className="text-4xl font-bold">Hi, I'm Ray</h2>
+            <h2 className="text-4xl font-bold">I am a Junior developer</h2>
             <p className="mt-3 text-gray-500">
               I just received my BSC from Victoria University of Wellington past
               November 2023!
             </p>
-            <button className="px-5 py-3 bg-blue-500 rounded-md text-white mt-5">
-              Download my CV
-            </button>
+            <div className="container m-auto flex gap-8 justify-center">
+              <button className="px-5 py-3 bg-blue-500 rounded-md text-white mt-5">
+                Download my CV
+              </button>
+              <button className="px-5 py-3 bg-blue-500 rounded-md text-white mt-5">
+                Contact me
+              </button>
+            </div>
           </div>
           <div className="w-2/2">
             <img
               src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/328998714_885168419257223_3222668373957364843_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=HNiHZXgSB1UAX8-rnks&_nc_ht=scontent-syd2-1.xx&oh=00_AfAjAoLlgpXdGbd8OeAs3SZieSBBdGqklVa_02hrYbJvuw&oe=65DFF051"
               alt="Rui"
-              style={{ width: "200px", height: "auto" }}
+              style={{ width: "400px", height: "auto" }}
             />
           </div>
         </div>
