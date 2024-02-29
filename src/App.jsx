@@ -94,16 +94,17 @@ function App() {
                 Download My CV
               </a>
 
-              <button
-                onClick={() => {
-                  window.alert(
-                    "My contace detials are: \nEmail: kyrie19960324@gamil.com\nPhone: 021-0849-6271"
-                  );
-                }}
+              <a
+                // onClick={() => {
+                //   window.alert(
+                //     "My contace detials are: \nEmail: kyrie19960324@gamil.com\nPhone: 021-0849-6271"
+                //   );
+                // }}
+                href="mailto:kyrie19960324@gmail.com"
                 className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5"
               >
                 Contact Me
-              </button>
+              </a>
             </div>
           </div>
           <div className="w-2/2">
