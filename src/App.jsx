@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <header className="px-4 py-6">
+      <header className="px-4 py-6 sm:py-12">
         <div className="container m-auto flex justify-between">
           <div>
             <h1 className="text-4xl font-mono">Ray</h1>
@@ -16,18 +16,54 @@ function App() {
           <div className="">
             <ul className="flex gap-4">
               <li>
-                <a className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer">
+                <a
+                  href="https://github.com/KyrieRui"
+                  onClick={(e) => {
+                    if (
+                      !window.confirm(
+                        "I will take you to my GitHub page, are you sure to leave this page?"
+                      )
+                    ) {
+                      e.preventDefault();
+                    }
+                  }}
+                  className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
+                >
                   Works
                 </a>
               </li>
               <li>
-                <a className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer">
+                <a
+                  href="https://dev.to/kyrierui"
+                  onClick={(e) => {
+                    if (
+                      !window.confirm(
+                        "I will take you to my Dev page, are you sure to leave this page?"
+                      )
+                    ) {
+                      e.preventDefault();
+                    }
+                  }}
+                  className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
+                >
                   Blogs
                 </a>
               </li>
               <li>
-                <a className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer">
-                  Contant
+                <a
+                  onClick={(e) => {
+                    if (
+                      !window.confirm(
+                        "Are you sure you want to leave this page and go to my Linkedin?"
+                      )
+                    ) {
+                      e.preventDefault();
+                    }
+                  }}
+                  href="https://www.linkedin.com/in/zhirui-wang-b5b1b9194/"
+                  className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
+                >
+                  Linkedin
                 </a>
               </li>
             </ul>
@@ -35,8 +71,8 @@ function App() {
         </div>
       </header>
       <main className="px-4 py-32">
-        <div className="container m-auto flex justify-between items-center">
-          <div className="w-1/2">
+        <div className="container m-auto flex flex-col-reverse sm:flex-row justify-between items-center">
+          <div className="w-2/2 text-center mt-6">
             <div className="shadow-lg">
               <h2 className="text-4xl font-mono">Hi, I'm Ray</h2>
               <h2 className="text-3xl font-mono mt-4">
@@ -50,10 +86,22 @@ function App() {
             </div>
 
             <div className="container m-auto flex gap-8">
-              <button className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5">
+              <a
+                href="/resume.pdf"
+                download="Ray_CV_Latex.pdf"
+                className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5"
+              >
                 Download My CV
-              </button>
-              <button className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5">
+              </a>
+
+              <button
+                onClick={() => {
+                  window.alert(
+                    "My contace detials are: \nEmail: kyrie19960324@gamil.com\nPhone: 021-0849-6271"
+                  );
+                }}
+                className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5"
+              >
                 Contact Me
               </button>
             </div>
@@ -63,7 +111,7 @@ function App() {
               className="rounded-full"
               src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/428633120_3785535288434439_4517344367272757351_n.jpg?stp=cp6_dst-jpg_s1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_ohc=KOOZne8HxoYAX9Ctzbh&_nc_ht=scontent-syd2-1.xx&oh=00_AfB4LhKAaJWHn3vLORVluPX4uy8E8RhVBk0-fvFufTCEkQ&oe=65E19BAF"
               alt="Rui"
-              style={{ width: "500px", height: "auto" }}
+              style={{ width: "440px", height: "auto" }}
             />
           </div>
         </div>
