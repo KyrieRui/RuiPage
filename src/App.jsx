@@ -127,7 +127,7 @@ function App() {
               <img
                 src="https://github.com/KyrieRui/BOPRC_water_meter_Monitor_Demo/blob/main/WX20231208-114409@2x.png?raw=true"
                 alt="work"
-                style={{ width: "500px", height: "auto" }}
+                style={{ width: "600px", height: "auto" }}
               />
             </div>
             <div>
@@ -153,9 +153,9 @@ function App() {
             <div className="basis-1/2 ">
               <img
                 className="rounded-md"
-                src="https://github.com/KyrieRui/Flutter_BOP_GPT/raw/main/01.png"
+                src="https://github.com/KyrieRui/Flutter_BOP_GPT/blob/main/Screen%20Recording%202024-02-29%20at%201.gif?raw=true"
                 alt="work"
-                style={{ width: "500px", height: "auto" }}
+                style={{ width: "600px", height: "auto" }}
               />
             </div>
             <div>
@@ -183,7 +183,7 @@ function App() {
                 className="rounded-md"
                 src="https://github.com/KyrieRui/YOLO5_River_Reading/blob/main/real01.gif?raw=true"
                 alt="work"
-                style={{ width: "500px", height: "auto" }}
+                style={{ width: "600px", height: "auto" }}
               />
             </div>
             <div>
