@@ -11,22 +11,22 @@ function App() {
       <header className="px-4 py-6">
         <div className="container m-auto flex justify-between">
           <div>
-            <h1 className="text-5xl font-mono">Ray</h1>
+            <h1 className="text-4xl font-mono">Ray</h1>
           </div>
           <div className="">
             <ul className="flex gap-4">
               <li>
-                <a className="font-mono text-4xl text-gray-500 hover:text-black cursor-pointer">
+                <a className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer">
                   Works
                 </a>
               </li>
               <li>
-                <a className="font-mono text-4xl text-gray-500 hover:text-black cursor-pointer">
+                <a className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer">
                   Blogs
                 </a>
               </li>
               <li>
-                <a className="font-mono text-4xl text-gray-500 hover:text-black cursor-pointer">
+                <a className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer">
                   Contant
                 </a>
               </li>
@@ -39,18 +39,20 @@ function App() {
           <div className="w-1/2">
             <div className="shadow-lg">
               <h2 className="text-4xl font-bold">Hi, I'm Ray</h2>
-              <h2 className="text-4xl font-bold">I am a Junior developer</h2>
-              <p className="mt-3 text-gray-500">
+              <h2 className="text-4xl font-bold mt-2">
+                I am a Junior developer
+              </h2>
+              <p className="mt-6 text-gray-500">
                 Graduated from Victoria University of Wellington November 2023
               </p>
               <p className="mt-3 text-gray-500">Majoring in Computer Science</p>
             </div>
 
             <div className="container m-auto flex gap-8">
-              <button className="px-5 py-3 bg-sky-500 rounded-md text-white mt-5">
+              <button className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5">
                 Download My CV
               </button>
-              <button className="px-5 py-3 bg-sky-500 rounded-md text-white mt-5">
+              <button className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5">
                 Contact Me
               </button>
             </div>
@@ -68,7 +70,9 @@ function App() {
       <section className="px-4 py-8 bg-gray-200">
         <div className="container flex m-auto justify-between">
           <div>
-            <h2 className="text-lg font-senibold">Recent Posts</h2>
+            <h2 className="text-lg text-gray-600 font-senibold">
+              Recent Posts
+            </h2>
           </div>
           <div>
             <a className="text-base text-gray-500 hover:text-black">View All</a>
@@ -115,18 +119,19 @@ function App() {
 
       <section className="px-5 py-5">
         <div className="container m-auto">
-          <h2 className="text-lg font-semibold">Featured works 1</h2>
-
-          <div className="flex mt-5 gap-3">
+          <h2 className="text-lg text-gray-600 font-senibold">
+            Featured works
+          </h2>
+          <div className="flex mt-8 gap-3">
             <div className="basis-1/2">
               <img
                 src="https://github.com/KyrieRui/BOPRC_water_meter_Monitor_Demo/blob/main/WX20231208-114409@2x.png?raw=true"
                 alt="work"
-                style={{ width: "400px", height: "auto" }}
+                style={{ width: "500px", height: "auto" }}
               />
             </div>
             <div>
-              <h2 className="text-lg font-mono">Locally LLM Dashboard</h2>
+              <h2 className="text-lg font-bold">Locally LLM Dashboard</h2>
               <div className="flex gap-3 my-3 item-center">
                 <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
                   2023
@@ -144,21 +149,20 @@ function App() {
         </div>
 
         <div className="container m-auto">
-          <h2 className="text-lg font-semibold">Featured works 2</h2>
-
           <div className="flex mt-5 gap-3">
-            <div className="basis-1/2">
+            <div className="basis-1/2 ">
               <img
-                src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/428689460_3785548611766440_2753976292737944169_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_ohc=Bd9bPn2aggAAX-n8pqk&_nc_oc=AQmXaSkYnA7YmJBS7DriRwJcRe1CMYKvlW8_UJk9uDPoVF-ZoKgaueo97LD_jIVnDkw&_nc_ht=scontent-syd2-1.xx&oh=00_AfDNdMCoP0WEWH7VhBK7Zkbf0lNlhdnSeJGsCCaPe1Ds_g&oe=65E1340D"
+                className="rounded-md"
+                src="https://github.com/KyrieRui/Flutter_BOP_GPT/raw/main/01.png"
                 alt="work"
-                style={{ width: "200px", height: "auto" }}
+                style={{ width: "500px", height: "auto" }}
               />
             </div>
             <div>
-              <h2 className="text-lg font-mono">IOS BOP GPT</h2>
+              <h2 className="text-lg font-bold">IOS BOP GPT</h2>
               <div className="flex gap-3 my-3 item-center">
                 <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
-                  2023
+                  2024
                 </span>
                 <span className="text-sm font-mono text-slate-500">
                   Mobile App
@@ -173,24 +177,23 @@ function App() {
         </div>
 
         <div className="container m-auto">
-          <h2 className="text-lg font-semibold">Featured works 3</h2>
-
           <div className="flex mt-5 gap-3">
             <div className="basis-1/2">
               <img
-                src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/428682487_3785548631766438_2238232392985061162_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=3635dc&_nc_ohc=OJAc1YKlrt8AX9VEOm0&_nc_ht=scontent-syd2-1.xx&oh=00_AfA2hjEO6xJjcH2zA0qhYvXv_XnVcyVQCfNVHlzQYFv7XQ&oe=65E2F4B0"
+                className="rounded-md"
+                src="https://github.com/KyrieRui/YOLO5_River_Reading/blob/main/real01.gif?raw=true"
                 alt="work"
-                style={{ width: "200px", height: "auto" }}
+                style={{ width: "500px", height: "auto" }}
               />
             </div>
             <div>
-              <h2 className="text-lg font-mono">YoloV8 Real Time Model</h2>
+              <h2 className="text-lg font-bold">YoloV8 Real Time Model</h2>
               <div className="flex gap-3 my-3 item-center">
                 <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
-                  2023
+                  2024
                 </span>
                 <span className="text-sm font-mono text-slate-500">
-                  Dashboard
+                  Mobile APP
                 </span>
               </div>
               <p className="text-lg font-mono text-gray-600">
@@ -205,28 +208,28 @@ function App() {
       <footer className="px-4 py-5">
         <div className="container m-auto">
           <div className="flex item-center justify-center gap-4">
-            <a>
+            <a className="cursor-pointer hover:scale-125 delay-75 transition-all">
               <img
                 src="https://img.icons8.com/ios/50/000000/facebook--v1.png"
-                className="w-11"
+                className="w-9"
               />
             </a>
-            <a>
+            <a className="cursor-pointer hover:scale-125 delay-75 transition-all">
               <img
                 src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"
-                className="w-11"
+                className="w-9"
               />
             </a>
-            <a>
+            <a className="cursor-pointer hover:scale-125 delay-75 transition-all">
               <img
                 src="https://img.icons8.com/ios/50/000000/linkedin.png"
-                className="w-11"
+                className="w-9"
               />
             </a>
-            <a>
+            <a className="cursor-pointer hover:scale-125 delay-75 transition-all">
               <img
                 src="https://img.icons8.com/ios/50/000000/twitter--v1.png"
-                className="w-11"
+                className="w-9"
               />
             </a>
           </div>
