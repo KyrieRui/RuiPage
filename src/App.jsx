@@ -85,11 +85,11 @@ function App() {
               <p className="mt-3 text-gray-500">Majoring in Computer Science</p>
             </div>
 
-            <div className="container m-auto flex gap-8">
+            <div className="container m-auto mt-5">
               <a
                 href="/resume.pdf"
                 download="Ray_CV_Latex.pdf"
-                className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5"
+                className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5 mr-5"
               >
                 Download My CV
               </a>
@@ -101,7 +101,7 @@ function App() {
                 //   );
                 // }}
                 href="mailto:kyrie19960324@gmail.com"
-                className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5"
+                className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5 ml-5"
               >
                 Contact Me
               </a>
@@ -125,7 +125,12 @@ function App() {
             </h2>
           </div>
           <div>
-            <a className="text-base text-gray-500 hover:text-black">View All</a>
+            <a
+              className="text-base text-gray-500 hover:text-black"
+              href="https://dev.to/kyrierui"
+            >
+              View All
+            </a>
           </div>
         </div>
         <div className="flex justify-between mt-5 gap-3">
@@ -258,25 +263,37 @@ function App() {
       <footer className="px-4 py-5">
         <div className="container m-auto">
           <div className="flex item-center justify-center gap-4">
-            <a className="cursor-pointer hover:scale-125 delay-75 transition-all">
+            <a
+              className="cursor-pointer hover:scale-125 delay-75 transition-all"
+              href="https://www.facebook.com/profile.php?id=100009340142142"
+            >
               <img
                 src="https://img.icons8.com/ios/50/000000/facebook--v1.png"
                 className="w-9"
               />
             </a>
-            <a className="cursor-pointer hover:scale-125 delay-75 transition-all">
+            <a
+              className="cursor-pointer hover:scale-125 delay-75 transition-all"
+              href="https://www.instagram.com/kruiii/"
+            >
               <img
                 src="https://img.icons8.com/ios/50/000000/instagram-new--v1.png"
                 className="w-9"
               />
             </a>
-            <a className="cursor-pointer hover:scale-125 delay-75 transition-all">
+            <a
+              className="cursor-pointer hover:scale-125 delay-75 transition-all"
+              href="https://www.linkedin.com/in/zhirui-wang-b5b1b9194/"
+            >
               <img
                 src="https://img.icons8.com/ios/50/000000/linkedin.png"
                 className="w-9"
               />
             </a>
-            <a className="cursor-pointer hover:scale-125 delay-75 transition-all">
+            <a
+              className="cursor-pointer hover:scale-125 delay-75 transition-all"
+              href="https://twitter.com/KyrieRui"
+            >
               <img
                 src="https://img.icons8.com/ios/50/000000/twitter--v1.png"
                 className="w-9"
