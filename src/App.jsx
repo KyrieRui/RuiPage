@@ -38,10 +38,11 @@ function App() {
         <div className="container m-auto flex justify-between items-center">
           <div className="w-1/2">
             <div className="shadow-lg">
-              <h2 className="text-4xl font-bold">Hi, I'm Ray</h2>
-              <h2 className="text-4xl font-bold mt-2">
-                I am a Junior developer
+              <h2 className="text-4xl font-mono">Hi, I'm Ray</h2>
+              <h2 className="text-3xl font-mono mt-4">
+                I'm a: Software Developer and AI Engineer
               </h2>
+
               <p className="mt-6 text-gray-500">
                 Graduated from Victoria University of Wellington November 2023
               </p>
