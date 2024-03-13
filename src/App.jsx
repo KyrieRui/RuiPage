@@ -88,7 +88,7 @@ function App() {
             <div className="container m-auto mt-5">
               <a
                 href="/resume.pdf"
-                download="Ray_CV_Latex.pdf"
+                download="Ray_CV.pdf"
                 className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5 mr-5"
               >
                 Download My CV
@@ -110,7 +110,7 @@ function App() {
           <div className="w-2/2">
             <img
               className="rounded-full"
-              src="https://scontent-syd2-1.xx.fbcdn.net/v/t39.30808-6/428633120_3785535288434439_4517344367272757351_n.jpg?stp=cp6_dst-jpg_s1080x2048&_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_ohc=KOOZne8HxoYAX9Ctzbh&_nc_ht=scontent-syd2-1.xx&oh=00_AfB4LhKAaJWHn3vLORVluPX4uy8E8RhVBk0-fvFufTCEkQ&oe=65E19BAF"
+              src="src/assets/ray.jpeg"
               alt="Rui"
               style={{ width: "440px", height: "auto" }}
             />
@@ -186,7 +186,11 @@ function App() {
               />
             </div>
             <div>
-              <h2 className="text-lg font-bold">Locally LLM Dashboard</h2>
+              <a href="https://github.com/KyrieRui/BOPRC_water_meter_Monitor_Demo">
+                <h2 className="text-lg font-bold cursor-pointer">
+                  Locally running LLM
+                </h2>
+              </a>
               <div className="flex gap-3 my-3 item-center">
                 <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
                   2023
@@ -214,7 +218,11 @@ function App() {
               />
             </div>
             <div>
-              <h2 className="text-lg font-bold">IOS BOP GPT</h2>
+              <a href="https://github.com/KyrieRui/Flutter_BOP_GPT">
+                <h2 className="text-lg font-bold cursor-pointer">
+                  IOS BOP GPT
+                </h2>
+              </a>
               <div className="flex gap-3 my-3 item-center">
                 <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
                   2024
@@ -242,7 +250,11 @@ function App() {
               />
             </div>
             <div>
-              <h2 className="text-lg font-bold">YoloV8 Real Time Model</h2>
+              <a href="https://github.com/KyrieRui/YOLO5_River_Reading">
+                <h2 className="text-lg font-bold cursor-pointer">
+                  Yolo Real Time Model
+                </h2>
+              </a>
               <div className="flex gap-3 my-3 item-center">
                 <span className="px-3 py-1 bg-slate-300 text-sm rounded-2xl">
                   2024
