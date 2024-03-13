@@ -110,7 +110,7 @@ function App() {
           <div className="w-2/2">
             <img
               className="rounded-full"
-              src="public/ray.jpeg"
+              src="https://github.com/KyrieRui/ruipage/blob/main/public/ray.jpeg?raw=true"
               alt="Rui"
               style={{ width: "440px", height: "auto" }}
             />
