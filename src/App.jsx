@@ -135,7 +135,10 @@ function App() {
         </div>
         <div className="flex justify-between mt-5 gap-3">
           <div className="bg-white p-3 rounded-sm basis-1/2">
-            <h2 className="text-lg font-semibold">Google Gemma first try</h2>
+            <a href="https://dev.to/kyrierui/google-gemma-first-try-309a">
+              <h2 className="text-lg font-semibold">Google Gemma first try</h2>
+            </a>
+
             <div className="mt-3 flex gap-3 items-center">
               <span className="text-gray-400 text-sm font-light">
                 22 Feb 2024
@@ -152,7 +155,12 @@ function App() {
             </p>
           </div>
           <div className="bg-white p-3 rounded-sm basis-1/2">
-            <h2 className="text-lg font-semibold">YOLO V5 on Android phone</h2>
+            <a href="https://dev.to/kyrierui/yolo-v5-running-on-an-android-phone-part-1train-model-881">
+              <h2 className="text-lg font-semibold">
+                YOLO V5 on Android phone
+              </h2>
+            </a>
+
             <div className="mt-3 flex gap-3 items-center">
               <span className="text-gray-400 text-sm font-light">
                 26 Jan 2024
@@ -196,7 +204,7 @@ function App() {
                   2023
                 </span>
                 <span className="text-sm font-mono text-slate-500">
-                  Dashboard
+                  Web Application
                 </span>
               </div>
               <p className="text-lg font-mono text-gray-600">
@@ -260,7 +268,7 @@ function App() {
                   2024
                 </span>
                 <span className="text-sm font-mono text-slate-500">
-                  Mobile APP
+                  Embedded program for Single board computer & Mobile
                 </span>
               </div>
               <p className="text-lg font-mono text-gray-600">
