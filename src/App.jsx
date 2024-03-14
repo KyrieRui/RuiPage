@@ -5,6 +5,7 @@ import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [showLinks, setShowLinks] = useState(false);
 
   return (
     <>
@@ -16,6 +17,14 @@ function App() {
           <div className="">
             <ul className="flex gap-4">
               <li>
+                <button
+                  onClick={() => setShowLinks(!showLinks)} // Toggle showLinks state on button click
+                  className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
+                >
+                  More about me
+                </button>
+              </li>
+              {/* <li>
                 <a
                   href="https://github.com/KyrieRui"
                   onClick={(e) => {
@@ -65,11 +74,64 @@ function App() {
                 >
                   Linkedin
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
       </header>
+      {showLinks && ( // Render links only if showLinks state is true
+        <div className="fixed right-0 top-1/4 transform -translate-y-1/2">
+          <div className="container m-auto">
+            <div className="flex flex-col gap-4">
+              <a
+                href="https://github.com/KyrieRui"
+                onClick={(e) => {
+                  if (
+                    !window.confirm(
+                      "I will take you to my GitHub page, are you sure to leave this page?"
+                    )
+                  ) {
+                    e.preventDefault();
+                  }
+                }}
+                className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
+              >
+                Works
+              </a>
+              <a
+                href="https://dev.to/kyrierui"
+                onClick={(e) => {
+                  if (
+                    !window.confirm(
+                      "I will take you to my Dev page, are you sure to leave this page?"
+                    )
+                  ) {
+                    e.preventDefault();
+                  }
+                }}
+                className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
+              >
+                Blogs
+              </a>
+              <a
+                onClick={(e) => {
+                  if (
+                    !window.confirm(
+                      "Are you sure you want to leave this page and go to my Linkedin?"
+                    )
+                  ) {
+                    e.preventDefault();
+                  }
+                }}
+                href="https://www.linkedin.com/in/zhirui-wang-b5b1b9194/"
+                className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
+              >
+                Linkedin
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
       <main className="px-4 py-32">
         <div className="container m-auto flex flex-col-reverse sm:flex-row justify-between items-center">
           <div className="w-2/2 text-center mt-6">
