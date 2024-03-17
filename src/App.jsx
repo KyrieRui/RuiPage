@@ -125,19 +125,37 @@ function App() {
       </main>
       <div className="flex justify-center">
         <div class="card">
-          <img src="public/jay01.png" class="cover" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay01.png"
+            class="cover"
+          />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img src="public/jay0102.png" class="hero" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay0102.png"
+            class="hero"
+          />
         </div>
         <div class="card">
-          <img src="public/jay01.png" class="cover" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay01.png"
+            class="cover"
+          />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img src="public/jay0102.png" class="hero" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay0102.png"
+            class="hero"
+          />
         </div>
         <div class="card">
-          <img src="public/jay01.png" class="cover" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay01.png"
+            class="cover"
+          />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img src="public/jay0102.png" class="hero" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay0102.png"
+            class="hero"
+          />
         </div>
       </div>
 
