@@ -137,25 +137,16 @@ function App() {
         </div>
         <div class="card">
           <img
-            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay01.png"
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay02.webp"
             class="cover"
           />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img
-            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay0102.png"
-            class="hero"
-          />
+          <img src="public/jay02.png" class="hero" />
         </div>
         <div class="card">
-          <img
-            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay01.png"
-            class="cover"
-          />
+          <img src="public/jay03.webp" class="cover" />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img
-            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay0102.png"
-            class="hero"
-          />
+          <img src="public/jay03.png" class="hero" />
         </div>
       </div>
 
