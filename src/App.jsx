@@ -141,12 +141,21 @@ function App() {
             class="cover"
           />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img src="public/jay02.png" class="hero" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay02.png"
+            class="hero"
+          />
         </div>
         <div class="card">
-          <img src="public/jay03.webp" class="cover" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay03.webp"
+            class="cover"
+          />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img src="public/jay03.png" class="hero" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay03.png"
+            class="hero"
+          />
         </div>
       </div>
 
