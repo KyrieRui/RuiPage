@@ -24,57 +24,6 @@ function App() {
                   More about me
                 </button>
               </li>
-              {/* <li>
-                <a
-                  href="https://github.com/KyrieRui"
-                  onClick={(e) => {
-                    if (
-                      !window.confirm(
-                        "I will take you to my GitHub page, are you sure to leave this page?"
-                      )
-                    ) {
-                      e.preventDefault();
-                    }
-                  }}
-                  className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
-                >
-                  Works
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://dev.to/kyrierui"
-                  onClick={(e) => {
-                    if (
-                      !window.confirm(
-                        "I will take you to my Dev page, are you sure to leave this page?"
-                      )
-                    ) {
-                      e.preventDefault();
-                    }
-                  }}
-                  className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
-                >
-                  Blogs
-                </a>
-              </li>
-              <li>
-                <a
-                  onClick={(e) => {
-                    if (
-                      !window.confirm(
-                        "Are you sure you want to leave this page and go to my Linkedin?"
-                      )
-                    ) {
-                      e.preventDefault();
-                    }
-                  }}
-                  href="https://www.linkedin.com/in/zhirui-wang-b5b1b9194/"
-                  className="font-mono text-3xl text-gray-500 hover:text-black cursor-pointer"
-                >
-                  Linkedin
-                </a>
-              </li> */}
             </ul>
           </div>
         </div>
@@ -157,11 +106,6 @@ function App() {
               </a>
 
               <a
-                // onClick={() => {
-                //   window.alert(
-                //     "My contace detials are: \nEmail: kyrie19960324@gamil.com\nPhone: 021-0849-6271"
-                //   );
-                // }}
                 href="mailto:kyrie19960324@gmail.com"
                 className="px-5 py-3 text-base font-mono bg-amber-500 rounded-md text-white mt-5 ml-5"
               >
@@ -179,6 +123,24 @@ function App() {
           </div>
         </div>
       </main>
+      <div className="flex justify-center">
+        <div class="card">
+          <img src="public/jay01.png" class="cover" />
+          {/* <img src="public/jay0103.png" class="title" /> */}
+          <img src="public/jay0102.png" class="hero" />
+        </div>
+        <div class="card">
+          <img src="public/jay01.png" class="cover" />
+          {/* <img src="public/jay0103.png" class="title" /> */}
+          <img src="public/jay0102.png" class="hero" />
+        </div>
+        <div class="card">
+          <img src="public/jay01.png" class="cover" />
+          {/* <img src="public/jay0103.png" class="title" /> */}
+          <img src="public/jay0102.png" class="hero" />
+        </div>
+      </div>
+
       <section className="px-4 py-8 bg-gray-200">
         <div className="container flex m-auto justify-between">
           <div>
