@@ -4,30 +4,30 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 // 导入音频文件
-import jay01Audio from "../public/jay01.mp3";
-import jay02Audio from "../public/jay02.mp3";
-import jay03Audio from "../public/jay03.mp3";
+// import jay01Audio from "../public/jay01.mp3";
+// import jay02Audio from "../public/jay02.mp3";
+// import jay03Audio from "../public/jay03.mp3";
 
 // 创建音频元素并设置属性
-const jay01Sound = new Audio(jay01Audio);
-const jay02Sound = new Audio(jay02Audio);
-const jay03Sound = new Audio(jay03Audio);
+// const jay01Sound = new Audio(jay01Audio);
+// const jay02Sound = new Audio(jay02Audio);
+// const jay03Sound = new Audio(jay03Audio);
 
 function App() {
   const [count, setCount] = useState(0);
   const [showLinks, setShowLinks] = useState(false);
 
-  // 定义播放音频函数
-  const playAudio = (audio) => {
-    audio.currentTime = 0; // 重置音频到开始位置
-    audio.play();
-  };
+  // // 定义播放音频函数
+  // const playAudio = (audio) => {
+  //   audio.currentTime = 0; // 重置音频到开始位置
+  //   audio.play();
+  // };
 
-  // 定义停止音频函数
-  const stopAudio = (audio) => {
-    audio.pause();
-    audio.currentTime = 0;
-  };
+  // // 定义停止音频函数
+  // const stopAudio = (audio) => {
+  //   audio.pause();
+  //   audio.currentTime = 0;
+  // };
   return (
     <>
       <header className="px-4 py-6 sm:py-12">
@@ -155,8 +155,8 @@ function App() {
       <div className="flex justify-center">
         <div
           class="card"
-          onMouseEnter={() => playAudio(jay01Sound)}
-          onMouseLeave={() => stopAudio(jay01Sound)}
+          // onMouseEnter={() => playAudio(jay01Sound)}
+          // onMouseLeave={() => stopAudio(jay01Sound)}
         >
           <img
             src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay01.png"
@@ -171,8 +171,8 @@ function App() {
 
         <div
           class="card"
-          onMouseEnter={() => playAudio(jay02Sound)}
-          onMouseLeave={() => stopAudio(jay02Sound)}
+          // onMouseEnter={() => playAudio(jay02Sound)}
+          // onMouseLeave={() => stopAudio(jay02Sound)}
         >
           <img
             src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay02.webp"
@@ -186,8 +186,8 @@ function App() {
         </div>
         <div
           class="card"
-          onMouseEnter={() => playAudio(jay03Sound)}
-          onMouseLeave={() => stopAudio(jay03Sound)}
+          // onMouseEnter={() => playAudio(jay03Sound)}
+          // onMouseLeave={() => stopAudio(jay03Sound)}
         >
           <img
             src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay03.webp"
