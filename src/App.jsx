@@ -3,10 +3,31 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 
+// 导入音频文件
+import jay01Audio from "../public/jay01.mp3";
+import jay02Audio from "../public/jay02.mp3";
+import jay03Audio from "../public/jay03.mp3";
+
+// 创建音频元素并设置属性
+const jay01Sound = new Audio(jay01Audio);
+const jay02Sound = new Audio(jay02Audio);
+const jay03Sound = new Audio(jay03Audio);
+
 function App() {
   const [count, setCount] = useState(0);
   const [showLinks, setShowLinks] = useState(false);
 
+  // 定义播放音频函数
+  const playAudio = (audio) => {
+    audio.currentTime = 0; // 重置音频到开始位置
+    audio.play();
+  };
+
+  // 定义停止音频函数
+  const stopAudio = (audio) => {
+    audio.pause();
+    audio.currentTime = 0;
+  };
   return (
     <>
       <header className="px-4 py-6 sm:py-12">
@@ -28,6 +49,7 @@ function App() {
           </div>
         </div>
       </header>
+
       {showLinks && ( // Render links only if showLinks state is true
         <div className="fixed right-0 top-1/4 transform -translate-y-1/2">
           <div className="container m-auto">
@@ -82,7 +104,10 @@ function App() {
         </div>
       )}
       <main className="px-4 py-32">
-        <div className="container m-auto flex flex-col-reverse sm:flex-row justify-between items-center">
+        <div
+          className="container m-auto flex flex-col-reverse sm:flex-row justify-between items-center"
+          style={{ marginBottom: "-20px" }}
+        >
           <div className="w-2/2 text-center mt-6">
             <div className="shadow-lg">
               <h2 className="text-4xl font-mono">Hi, I'm Ray</h2>
@@ -123,8 +148,16 @@ function App() {
           </div>
         </div>
       </main>
+      <div className="flex flex-col items-center justify-center mb-6 text-center text-gray-500">
+        <h1>Mouser on card will play my favorite music </h1>
+        <h2> -- some times it will load few seconds</h2>
+      </div>
       <div className="flex justify-center">
-        <div class="card">
+        <div
+          class="card"
+          onMouseEnter={() => playAudio(jay01Sound)}
+          onMouseLeave={() => stopAudio(jay01Sound)}
+        >
           <img
             src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay01.png"
             class="cover"
@@ -135,7 +168,12 @@ function App() {
             class="hero"
           />
         </div>
-        <div class="card">
+
+        <div
+          class="card"
+          onMouseEnter={() => playAudio(jay02Sound)}
+          onMouseLeave={() => stopAudio(jay02Sound)}
+        >
           <img
             src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay02.webp"
             class="cover"
@@ -146,7 +184,11 @@ function App() {
             class="hero"
           />
         </div>
-        <div class="card">
+        <div
+          class="card"
+          onMouseEnter={() => playAudio(jay03Sound)}
+          onMouseLeave={() => stopAudio(jay03Sound)}
+        >
           <img
             src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay03.webp"
             class="cover"
