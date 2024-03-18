@@ -4,9 +4,9 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 // 导入音频文件
-import jay01Audio from "../public/jay01.mp3";
-import jay02Audio from "../public/jay02.mp3";
-import jay03Audio from "../public/jay03.mp3";
+import jay01Audio from "https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay01.mp3";
+import jay02Audio from "https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay02.mp3";
+import jay03Audio from "https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay03.mp3";
 
 // 创建音频元素并设置属性
 const jay01Sound = new Audio(jay01Audio);
