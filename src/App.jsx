@@ -194,7 +194,10 @@ function App() {
             class="cover"
           />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img src="public/jay0301.png" class="hero" />
+          <img
+            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay0301.png"
+            class="hero"
+          />
         </div>
       </div>
 
