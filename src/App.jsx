@@ -9,7 +9,7 @@ import "./App.css";
 // import jay03Audio from "../public/jay03.mp3";
 
 // 创建音频元素并设置属性
-// const jay01Sound = new Audio(jay01Audio);
+// const jay01Sound = new Audio(jay01AudioDataURI);
 // const jay02Sound = new Audio(jay02Audio);
 // const jay03Sound = new Audio(jay03Audio);
 
@@ -17,7 +17,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [showLinks, setShowLinks] = useState(false);
 
-  // // 定义播放音频函数
+  // 定义播放音频函数
   // const playAudio = (audio) => {
   //   audio.currentTime = 0; // 重置音频到开始位置
   //   audio.play();
@@ -194,10 +194,7 @@ function App() {
             class="cover"
           />
           {/* <img src="public/jay0103.png" class="title" /> */}
-          <img
-            src="https://raw.githubusercontent.com/KyrieRui/ruipage/main/public/jay03.png"
-            class="hero"
-          />
+          <img src="public/jay0301.png" class="hero" />
         </div>
       </div>
 
