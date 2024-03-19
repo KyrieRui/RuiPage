@@ -30,6 +30,15 @@
   transform: perspective(500px) translate3d(0, -50px, 50px);
 }
 
+.card:hover .large {
+  z-index: 3;
+  opacity: 1;
+  transform: perspective(500px) translate3d(0, -50px, 50px);
+  scale: 2.1;
+  /* moveleft */
+  left: 150%;
+}
+
 .title {
   z-index: 3;
   bottom: 0;

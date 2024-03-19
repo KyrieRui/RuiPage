@@ -269,7 +269,7 @@ function App() {
           <h2 className="text-lg text-gray-600 font-senibold">
             Featured works
           </h2>
-          <div className="flex mt-8 gap-3">
+          <div className="flex mt-8 gap-10">
             <div className="basis-1/2">
               <img
                 src="https://github.com/KyrieRui/BOPRC_water_meter_Monitor_Demo/blob/main/WX20231208-114409@2x.png?raw=true"
@@ -300,7 +300,7 @@ function App() {
         </div>
 
         <div className="container m-auto">
-          <div className="flex mt-5 gap-3">
+          <div className="flex mt-5 gap-10">
             <div className="basis-1/2 ">
               <img
                 className="rounded-md"
@@ -332,7 +332,7 @@ function App() {
         </div>
 
         <div className="container m-auto">
-          <div className="flex mt-5 gap-3">
+          <div className="flex mt-5 gap-10">
             <div className="basis-1/2">
               <img
                 className="rounded-md"
