@@ -338,7 +338,7 @@ function App() {
                 className="rounded-md"
                 src="https://github.com/KyrieRui/YOLO5_River_Reading/blob/main/real01.gif?raw=true"
                 alt="work"
-                style={{ width: "600px", height: "auto" }}
+                style={{ width: "610px", height: "auto" }}
               />
             </div>
             <div>
