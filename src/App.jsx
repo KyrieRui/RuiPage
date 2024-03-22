@@ -300,7 +300,7 @@ function App() {
         </div>
 
         <div className="container m-auto">
-          <div className="flex mt-5 gap-10">
+          <div className="flex mt-5 gap-7">
             <div className="basis-1/2 ">
               <img
                 className="rounded-md"
@@ -338,7 +338,7 @@ function App() {
                 className="rounded-md"
                 src="https://github.com/KyrieRui/YOLO5_River_Reading/blob/main/real01.gif?raw=true"
                 alt="work"
-                style={{ width: "610px", height: "auto" }}
+                style={{ width: "600px", height: "auto" }}
               />
             </div>
             <div>
